@@ -3,6 +3,7 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+<<<<<<< HEAD
 import com.my.spring.dao.UsuarioDAO;
 import com.my.spring.exception.UsuarioException;
 import com.my.spring.pojo.Usuario;
@@ -35,6 +36,13 @@ public class NexusApplication {
 		System.out.println("Finished Testing...");
 
 		
+=======
+@SpringBootApplication
+public class NexusApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NexusApplication.class, args);
+>>>>>>> refs/remotes/origin/master
 	}
 
 }
